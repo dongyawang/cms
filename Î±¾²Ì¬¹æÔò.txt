@@ -1,0 +1,38 @@
+﻿1、打开Apache的配置文件httpd.conf 
+2、将#LoadModule rewrite_module modules/mod_rewrite前面的#去掉 
+3、将AllowOverride None改成AllowOverride All
+4、在httpd.conf中添加: 
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+#CMS伪静态规则
+
+#将news_details.php?cz=${id} 优化为news_details_${id}.html
+RewriteRule ^(.*)/news_details_([0-9]+)\.html$ $1/news_details\.php\?cz=$2
+
+#将news.php?page=1 优化为news_1.html
+RewriteRule ^(.*)/news_([0-9]+)\.html$ $1/news\.php\?page=$2
+
+#将recruitment_details.php?cz=${id} 优化为recruitment_details_${id}.html
+RewriteRule ^(.*)/recruitment_details_([0-9]+)\.html$ $1/recruitment_details\.php\?cz=$2
+
+#将recruitment.php?page=1 优化为recruitment_1.html
+RewriteRule ^(.*)/recruitment_([0-9]+)\.html$ $1/recruitment\.php\?page=$2
+
+#将x_modify.php?a=${id} 优化为news_modify_${id}.html
+RewriteRule ^(.*)/news_modify_([0-9]+)\.html$ $1/x_modify\.php\?a=$2
+
+#product_list.php?typeid=50 优化为product_list_50.html
+RewriteRule ^(.*)/product_list_([0-9]+)\.html$ $1/product_list\.php\?typeid=$2
+
+#将product_details.php?cz=${id} 优化为product_details_${id}.html
+RewriteRule ^(.*)/product_details_([0-9]+)\.html$ $1/product_details\.php\?cz=$2
+
+#将product_list.php?typeid=1&page=1 优化为product_list_1_1.html
+RewriteRule ^(.*)/product_list_([0-9]+)_([0-9]+)\.html$ $1/product_list\.php\?typeid=$2&page=$3
+
+#将product.php?page=1 优化为product_1.html
+RewriteRule ^(.*)/product_([0-9]+)\.html$ $1/product\.php\?page=$2
+
+</IfModule>
+
+5、保存httpd.conf并重启Apache

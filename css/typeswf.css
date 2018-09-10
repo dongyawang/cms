@@ -1,0 +1,13 @@
+/*中部文字区域*/
+.main_h1{margin-left:auto; margin-right:auto; width:960px; height:700px;}
+.main_left{width:163px; height:700px;float:left;}
+.main_left_h{ width:161px; height:232px;border-color:#D3D3D3; float:left; border-style:solid; border-width:1px; margin-bottom:5px; }
+.main_left_hx1{ width:159px; height:230px;border-color:#E9E6E6; float:left; border-style:solid; border-width:1px; margin-bottom:5px; }
+.main_left_hx2{ width:157px; height:228px;border-color:#F3F2F2; float:left; border-style:solid; border-width:1px; margin-bottom:5px; }
+.main_left_h1{width:157px; height:22px;float:left; background-color:#E1E1E1; font-size:13px; text-align:left;color:#4D4D4D; font-weight:bolder; padding-top:10px; text-indent:1em}
+.main_left_h2{width:157px; height:196px;float:left; background-color:#FFF;margin-bottom:3px; font-size:13px; text-align:left; color:#4D4D4D; text-indent:1em; }
+.main_left_h2_1{width:139px; height:25px;background-color:#FFF;font-size:13px;padding-top:10px; margin-left:10px; margin-right:10px;border-bottom-color:#CCC; border-bottom-style:dashed; border-bottom-width:1px;}
+.main_left_h2 a:link{font-size:13px;color:#000;text-decoration:none; float:left;}
+.main_left_h2 a:visited{display: block;font-size:13px;color:#4D4D4D;text-decoration:none;}
+.main_left_h2 a:active{text-decoration: none;background-repeat:repeat-y;text-decoration:none;}
+.main_left_h2 a:hover{color:#0080FF;text-decoration: none;background-repeat:repeat-y;text-decoration:none;}458

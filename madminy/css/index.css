@@ -1,0 +1,6 @@
+/*body区域*/
+body {padding: 0px;margin: 0px;text-align:center; background-image:url(../images/login.jpg); background-repeat:repeat-x;font-family:Arial,Helvetica,sans-serif;}
+/*总体区域*/
+.main{ width:320px; height:205px;*height:280px; margin-left: auto;margin-right: auto; padding-top:90px; margin-top:200px;background-image:url(../images/denglukuang.jpg); background-repeat:no-repeat; font-size:14px; color:#DADCE2;}
+span{ font-size:12px;}
+

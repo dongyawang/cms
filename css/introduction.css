@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import url(body.css);
+@import url(head.css);
+@import url(foot.css);
+@import url(ben.css);
+@import url(image_effects.css);
+@import url(typeswf.css);
+/* CSS Document */
+body {padding: 0px;margin: 0px;text-align:center;font-family:Arial,Helvetica,sans-serif; background-color:#FFF;}
+/*中间简介内容*/
+.main_right{width:951px; height:auto; margin-left:auto; margin-right:auto; background-color:#F4F4F4;_height:700px; min-height:700px;;}
+.main_right_tm{width:906px; height:23px; border-bottom-color:#CCC; padding-top:6px;margin-left:10px; margin-right:10px;border-bottom-style:dashed; border-bottom-width:1px; float:left; font-size:13px; color:#4D4D4D; text-align:left;}
+.main_right_nr{ width:906px; height:auto; padding-left:10px;padding-right:10px;text-align:left; line-height:30px; font-size:12px; color:#505050; text-indent:2em;}
+.main_right_nr a:link{font-size:13px;color:#4D4D4D;text-decoration:none;}
+.main_right_nr a:visited{display: block;font-size:13px;color:#4D4D4D;text-decoration:none;}
+.main_right_nr a:active{text-decoration: none;background-repeat:repeat-y;text-decoration:none;}
+.main_right_nr a:hover{color:#0080FF;text-decoration: none;background-repeat:repeat-y;text-decoration:none;}
